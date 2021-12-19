@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layouting & Linking</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="form.js"></script>
+    </head>
+    <body>
+        <!-- NavBar-->
+        <nav>
+
+            <div class="left">
+                <img src="assets/logo.png">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <a href="contact.html">Contact Me</a>
+            </div>
+        </nav>
+
+        <!-- Form Contact-->
+        <div class="form-contact">
+            <div class="container-form">
+                <form>
+                <div>
+                    <label for="input-name">Name</label>
+                    <input id="input-name" placeholder="Your Name" type="text">
+                </div>
+
+                    <div>
+                        <label for="input-email">Email
+                        </label>
+
+                        <input id="input-email" placeholder="Your Email" type="email">
+                    </div>
+
+                    <div>
+                        <label for="input-phone">Phone</label>
+
+                        <input id="input-phone" placeholder="Your Phone" type="text">
+                    </div>
+
+                    <div>
+                        <label for="input-subject">Subject
+                        </label>
+
+                        <select id="input-subject">
+                            <option value="Let's Talk">Let's Talk</option>
+                            <option value="Let's Collaboration">Let's Collaboration</option>
+                            <option value="Let's Discuss">Let's Discuss</option>
+                            <option value="I'm Hiring Partner">I'm Hiring Partner</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="input-message">Your Message
+                        </label>
+
+                        <textarea id="input-message" placeholder="Your Message"></textarea>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="checkbox"
+                        style="margin-bottom: 20px">
+                        <label style="color: rgb(94, 93, 93)">
+                                Saya Menyetujui Syarat & Ketentuan
+                        </label>
+                    </div>
+
+                    <button type="button" onclick="submitData()" style="
+                    background-color: orangered;
+                    font-size: 20px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    color: white;
+                    border: none;
+                    padding: 5px 40px;
+                    border-radius: 50px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 15px;
+                    width: 100%;
+                    cursor: pointer">Submit</button>
+                    
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</html>

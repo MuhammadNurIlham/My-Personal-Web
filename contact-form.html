@@ -1,0 +1,156 @@
+<html>
+
+<head>
+    <title>Personal Web - Contact Form</title>
+</head>
+
+<body>
+    <form style="
+        background-color: whitesmoke; 
+        width: 400px;
+        margin: auto;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px grey">
+
+
+        <div style="
+            margin-bottom: 20px;
+            margin-top: 10px">
+            
+            <label for="input-name" style="
+                font-size: 20px; 
+                font-weight: bold;
+                font-family:Cambria;
+                padding: 5px;""
+                >Name
+            </label>
+
+            <input id="input-name" placeholder="Your Name" type="text" 
+                style="
+                    background-color: rgb(231, 226, 226);
+                    width: 100%;
+                    border: 1px solid whitesmoke;
+                    border-radius: 15px;
+                    padding: 10px;
+                    margin-top: 5px;">
+        </div>
+
+        <div style="margin-bottom: 20px">
+
+            <label for="input-email" style="
+                font-size: 20px; 
+                font-weight: bold;
+                font-family:Cambria;
+                padding: 5px"
+                >Email
+            </label>
+
+            <input id="input-email" placeholder="Your Email" type="email" 
+                style="
+                    background-color: rgb(231, 226, 226);
+                    width: 100%;
+                    border: 1px solid whitesmoke;
+                    border-radius: 15px;
+                    padding: 10px;
+                    margin-top: 5px;">
+        </div>
+
+        <div style="margin-bottom: 20px">
+
+            <label for="input-phone" style="
+                font-size: 20px; 
+                font-weight: bold;
+                font-family:Cambria;
+                padding: 5px"
+                >Phone
+            </label>
+
+            <input id="input-phone placeholder="Your phone" type="text" 
+                style="
+                    background-color: rgb(231, 226, 226);
+                    width: 100%;
+                    border: 1px solid whitesmoke;
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-top: 5px;">
+        </div>
+
+        <div style="margin-bottom: 15px">
+            <label for="input-subject" style="
+                font-size: 20px; 
+                font-weight: bold;
+                font-family:Cambria ;
+                padding: 5px"
+                >Subject
+            </label>
+
+            <select id="input-subject" 
+                style="
+                    background-color: rgb(231, 226, 226);
+                    width: 100%;
+                    border: 1px solid whitesmoke;
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-top: 5px;">
+                <option value="Let's Talk">Let's Talk</option>
+                <option value="Let's Collaboration">Let's Collaboration</option>
+                <option value="Let's Discuss">Let's Discuss</option>
+                <option value="I'm Hiring Partner">I'm Hiring Partner</option> 
+            </select>
+        </div>
+
+        <div style="margin-bottom: 20px">
+
+            <label for="input-message" style="
+                font-size: 20px; 
+                font-weight: bold;
+                font-family:Cambria;
+                padding: 5px"
+                >Your Message
+                </label>
+
+            <textarea id="input-message" placeholder="Your Message" style="
+                   background-color: rgb(231, 226, 226);
+                    width: 100%;
+                    border: 1px solid whitesmoke;
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-top: 5px;
+                    height: 100px;
+                    resize: none;"></textarea>
+        </div>
+
+        <div>
+            <input type="checkbox" id="checkbox"
+            style="margin-bottom: 20px">
+            <label style="
+                        font-size: 12; 
+                        color: rgb(94, 93, 93)">
+                        Saya Menyetujui Syarat & Ketentuan
+            </label>
+        </div>
+
+        <div>
+            <button type="button" onclick="submitData()" style="
+                    background-color: orangered;
+                    font-size: 20px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    color: white;
+                    border: none;
+                    padding: 5px 40px;
+                    border-radius: 50px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 15px;
+                    width: 100%;
+                    cursor: pointer">Submit</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
