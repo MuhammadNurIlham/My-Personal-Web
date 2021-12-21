@@ -10,7 +10,7 @@ function submitData() {
         return alert("Semua Form harus diisi yaa brayy...")
     }
 
-// let emailReceiver = 'muhnilham99@gmail.com'
+let emailReceiver = 'muhnilham99@gmail.com'
 let a = document.createElement('a')
 a.href = `mailto:${emailReceiver}?subject=${subject}&body=Halo my name ${name}, ${message}`
 a.click()
